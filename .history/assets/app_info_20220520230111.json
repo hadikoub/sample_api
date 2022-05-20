@@ -1,0 +1,6 @@
+{
+    "name": "SampleApi",
+    "title": "Sample Api",
+    "version": "v1",
+    "description": "sample api to be dockerized"
+}

@@ -1,0 +1,10 @@
+from fastapi import FastAPI
+
+
+app = FastAPI()
+
+
+@app.get('/api/v1/health')
+def hello()->str:
+    return {"message": "Hello World from Dockerized FastAPI"}
+
