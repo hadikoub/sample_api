@@ -15,6 +15,6 @@ WORKDIR /app
 
 # Copy the source code to the current working directory
 COPY ./main.py ./ 
-
+COPY ./assets /assets
 # Run the Web Server using Uvicorn web server and set host to 0.0.0.0 and port to 6000
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "6000"]
