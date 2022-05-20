@@ -1,6 +1,0 @@
-{
-    "name": "SampleApi",
-    "title": "Sample Api",
-    "version": 1,
-    "description": "sample api to be dockerized"
-}
